@@ -54,6 +54,9 @@ for (let i = 0; i < teamMembers.length; i++) {
                 </div>
             </div> `
   rowEl.innerHTML += markup;
+  console.log(teamMembers);
 
 }
+
+
 
