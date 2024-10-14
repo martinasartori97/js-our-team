@@ -36,3 +36,8 @@ const teamMembers = [
     img: "img/female3.png"
   }
 ];
+console.log(teamMembers);
+
+
+for (let i = 0; i < teamMembers.length; i++) {
+  const member = teamMembers[i];
