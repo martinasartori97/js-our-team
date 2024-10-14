@@ -41,11 +41,12 @@ console.log(teamMembers);
 
 let rowEl = document.querySelector(".row");
 
+
 for (let i = 0; i < teamMembers.length; i++) {
   const member = teamMembers[i];
   console.log(teamMembers);
   let { name, role, email, img } = teamMembers;
-  letMarkup = ` <div class="col-4">
+  let Markup = ` <div class="col-4">
                 <div class="card">
                     <img src="${img}" alt="">
                     <h3>${name}</h3>
@@ -53,7 +54,7 @@ for (let i = 0; i < teamMembers.length; i++) {
                     <h6>${email}</h6>
                 </div>
             </div> `
-  rowEl.innerHTML += markup;
+  rowEl.innerHTML += Markup;
   console.log(member);
 
 }
